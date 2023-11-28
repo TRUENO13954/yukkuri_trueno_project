@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Maxtool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxtool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/yukkuriproject/item/MaxtoolItem.java",
+          "src/main/resources/assets/yukkuri_project/models/item/maxtool.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.yukkuri_project.maxtool": "Maxtool"
+    }
   },
   "foldersRoot": {
     "name": "~",
